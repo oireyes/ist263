@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Tables</h1>
+        <table>
+            <caption>Our First Table</caption>
+            <tr>
+                <th>Column One</th>
+                <th>Column Two</th>
+                <th>Column Three</th>
+            <tr>
+
+            <tr>
+                <td>Freshman</td>
+                <td>Sophmore</td>
+                <td>Junior</td>
+            <tr>
+        </table>
+    
+    <form action="" method="">
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname">
+        <label for="fname">Last name: </label>
+        <input type="text" id="lname" name="lname">
+    
+        <label for="comments">Comments</label><br>
+        <textarea id=""commenrs" name="comments">
+        
+        </textarea><br><br>
+    
+    </form>
+ </body>
+
+</html>
