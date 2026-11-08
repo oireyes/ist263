@@ -1,0 +1,25 @@
+img {
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.first, .second, .third {
+    animation: wiggle 1s ease-in-out infinite;
+}
+
+.second {
+    animation-delay: 0.2s;
+}
+
+.third {
+    animation-delay: 0.4s;
+}
+
+@keyframes wiggle {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-10deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
